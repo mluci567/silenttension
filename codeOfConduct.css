@@ -11,12 +11,13 @@ body {
     justify-content: flex-end; /* Align content to the bottom */
   }
   
-  .pastEvents {
+  .body {
     margin-left: 2%; /* Adjust as needed */
     margin-bottom: 20px; /* Adjust as needed */
+    margin-right: 40%;
   }
   
-  .pastEvents a {
+  .body a {
     text-decoration: none; /* Remove underline from links */
     color: black;
     display: block; /* Make each link a block element */

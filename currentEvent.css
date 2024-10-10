@@ -34,16 +34,20 @@ body {
     line-height: 1.4em;
   }
   
-  .poster a,
-  .tickets a {
+  a { /* Targets all <a> tags */
     text-decoration: none;
     color: black;
   }
+  
+  .top-row {
+    display: flex;
+    flex-direction: column; /* Stack the elements vertically */
+    align-items: flex-start; 
+    margin-left: 30%; 
+  }
 
-  .poster a {
-    text-decoration: none;
-    color: black; 
-    border: none; /* Remove any border that might be applied */
+  .tickets h2 {
+    margin-bottom: 20px; 
   }
   
   .links {
@@ -52,9 +56,9 @@ body {
     align-self: flex-start;
   }
 
-  .top-row {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Align items to the left */
-    margin-left: 40%; /* Adjust this value to move it further right */
+  @media (max-width: 1500px) { /* Adjust the breakpoint as needed */
+    body {
+        align-items: flex-start; /* Center content on smaller screens */
+        margin-bottom: 20px; /* Add margin to the bottom */
+    }
   }
