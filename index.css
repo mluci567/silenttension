@@ -72,8 +72,9 @@ display: block;
     margin-top: 0; /* Remove extra margin from buttons */
 }
 
-@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+@media (max-width: 1500px) { /* Adjust the breakpoint as needed */
   body {
-    align-items: center; /* Center content on smaller screens */
+    align-items: flex-start; /* Center content on smaller screens */
+    margin-bottom: 20px; /* Add margin to the bottom */
   }
 }
