@@ -1,0 +1,60 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: white;
+    color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    justify-content: flex-end;
+  }
+  
+  h1,
+  h2 {
+    margin: 0;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    margin-left: 2%;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+  }
+  
+  .description h1 {
+    font-size: 1.5em;
+    line-height: 1.4em;
+  }
+  
+  .poster a,
+  .tickets a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .poster a {
+    text-decoration: none;
+    color: black; 
+    border: none; /* Remove any border that might be applied */
+  }
+  
+  .links {
+    margin-left: 2%;
+    margin-bottom: 20px;
+    align-self: flex-start;
+  }
+
+  .top-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    margin-left: 40%; /* Adjust this value to move it further right */
+  }
