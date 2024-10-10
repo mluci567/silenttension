@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background-color: white;
+    color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    justify-content: flex-end; /* Align content to the bottom */
+  }
+  
+  .pastEvents {
+    margin-left: 2%; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  .pastEvents a {
+    text-decoration: none; /* Remove underline from links */
+    color: black;
+    display: block; /* Make each link a block element */
+    font-size: 1.2em; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Adjust spacing between links as needed */
+  }
