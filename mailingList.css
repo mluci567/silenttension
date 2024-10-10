@@ -63,3 +63,10 @@ body {
     transform: translateY(-50%); /* Center vertically */
     pointer-events: none; /* Prevent label from interfering with input */
   }
+
+  @media (max-width: 1500px) { /* Adjust the breakpoint as needed */
+    body {
+      align-items: flex-start; /* Center content on smaller screens */
+      margin-bottom: 20px; /* Add margin to the bottom */
+    }
+  }

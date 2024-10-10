@@ -1,0 +1,53 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: white;
+    color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    justify-content: flex-end;
+  }
+  
+  h1,
+  h2 {
+    margin: 0;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    margin-left: 2%;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+    margin-left: 2%;
+    margin-right: 40%;
+  }
+  
+  .description h1 {
+    font-size: 1.5em;
+    line-height: 1.4em;
+  }
+  
+  .download a{
+    text-decoration: none;
+    color: black;
+    border: none;
+    outline: none;
+  }
+
+  .links {
+    margin-left: 2%;
+    margin-bottom: 20px;
+    margin-right: 40%;
+    align-self: flex-start;
+    text-decoration: none;
+    color: black;
+  }
