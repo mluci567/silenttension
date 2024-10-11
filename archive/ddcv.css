@@ -52,10 +52,11 @@ body {
     align-self: flex-start;
     color: black;
   }
-
-    @media (max-width: 1500px) { /* Adjust the breakpoint as needed */
+  
+  @media (max-width: 1500px) { 
     body {
-        align-items: flex-start; /* Center content on smaller screens */
-        margin-bottom: 20px; /* Add margin to the bottom */
+      align-items: center; /* Center content horizontally */
+      justify-content: flex-start; /* Align content to the top */
+      margin-bottom: 20px; 
     }
-    }
+  }
