@@ -39,10 +39,14 @@ body {
     line-height: 1.4em;
   }
   
-  .download a {
+  a {
     text-decoration: none;
     color: black; 
   }
+  .poster{
+    border: none; 
+  }
+
   .links {
     margin-left: 2%;
     margin-bottom: 20px;

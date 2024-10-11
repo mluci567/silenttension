@@ -63,6 +63,15 @@ body {
   @media (max-width: 1500px) { /* Adjust the breakpoint as needed */
     body {
         align-items: flex-start; /* Center content on smaller screens */
-        margin-bottom: 20px; /* Add margin to the bottom */
+        margin-bottom: 20px; /* Add margin to the bottom */;
+    }
+    .description {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .top-row {
+        margin-left: 5%; 
+        margin-top: 40px;
+        margin-right: 20%;
     }
   }
