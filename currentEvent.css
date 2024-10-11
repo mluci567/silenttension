@@ -61,7 +61,7 @@ body {
 
 
   @media (max-width: 1500px) { 
-    .main-content,.links{
+    body, .main-content,.links{
       align-items: left; 
       justify-content: flex-start; 
       margin-bottom: 20px; 
