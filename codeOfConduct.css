@@ -16,9 +16,12 @@ body {
     margin-bottom: 20px; /* Adjust as needed */
     margin-right: 40%;
   }
+
+  a { 
+    color: black;
+  }
   
   .body a {
-    text-decoration: none; /* Remove underline from links */
     color: black;
     display: block; /* Make each link a block element */
     margin-bottom: 10px; /* Adjust spacing between links as needed */

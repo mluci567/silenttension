@@ -29,7 +29,6 @@ body {
     margin-bottom: 20px;
     margin-left: 2%;
     margin-right: 40%;
-    text-decoration: none;
     color: black; 
     border: none;
   }
@@ -40,7 +39,6 @@ body {
   }
   
   a {
-    text-decoration: none;
     color: black; 
   }
   .poster{
@@ -52,7 +50,6 @@ body {
     margin-bottom: 20px;
     margin-right: 40%;
     align-self: flex-start;
-    text-decoration: none;
     color: black;
   }
 

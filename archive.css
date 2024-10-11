@@ -17,9 +17,7 @@ body {
   }
   
   .pastEvents a {
-    text-decoration: none; /* Remove underline from links */
     color: black;
-    display: block; /* Make each link a block element */
     margin-bottom: 10px; /* Adjust spacing between links as needed */
   }
 

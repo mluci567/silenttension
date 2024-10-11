@@ -36,7 +36,6 @@ body {
   }
   
   a { /* Targets all <a> tags */
-    text-decoration: none;
     color: black;
   }
   
