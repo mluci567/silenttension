@@ -55,8 +55,8 @@ body {
 
   @media (max-width: 1500px) { 
     .main-content,.links {
-      align-items: left; /* Center content horizontally */
-      justify-content: flex-start; /* Align content to the top */
+      align-items: left; 
+      justify-content: flex-start; 
       margin-bottom: 20px; 
     }
   }

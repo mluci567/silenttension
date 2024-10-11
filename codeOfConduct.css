@@ -8,12 +8,12 @@ body {
     flex-direction: column;
     align-items: flex-start;
     min-height: 100vh;
-    justify-content: flex-end; /* Align content to the bottom */
+    justify-content: flex-end;
   }
   
   .body {
-    margin-left: 2%; /* Adjust as needed */
-    margin-bottom: 20px; /* Adjust as needed */
+    margin-left: 2%; 
+    margin-bottom: 20px; 
     margin-right: 40%;
   }
 
@@ -23,14 +23,14 @@ body {
   
   .body a {
     color: black;
-    display: block; /* Make each link a block element */
-    margin-bottom: 10px; /* Adjust spacing between links as needed */
+    display: block;
+    margin-bottom: 10px; 
   }
 
   @media (max-width: 1500px) { 
     body {
-      align-items: left; /* Center content horizontally */
-      justify-content: flex-start; /* Align content to the top */
+      align-items: left; 
+      justify-content: flex-start; 
       margin-bottom: 20px; 
     }
   }

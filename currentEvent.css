@@ -35,13 +35,13 @@ body {
     line-height: 1.4em;
   }
   
-  a { /* Targets all <a> tags */
+  a { 
     color: black;
   }
   
   .top-row {
     display: flex;
-    flex-direction: column; /* Stack the elements vertically */
+    flex-direction: column; 
     align-items: flex-start; 
     margin-left: 10%; 
     margin-top: 40px;
@@ -62,8 +62,8 @@ body {
 
   @media (max-width: 1500px) { 
     .main-content,.links{
-      align-items: left; /* Center content horizontally */
-      justify-content: flex-start;  /* Align content to the top */
+      align-items: left; 
+      justify-content: flex-start; 
       margin-bottom: 20px; 
     }
   }

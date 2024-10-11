@@ -2,15 +2,15 @@ body {
     background-color: white; 
     display: flex;
     justify-content: center;
-    align-items: flex-end; /* Align items to the bottom */
+    align-items: flex-end; 
     min-height: 100vh; 
     margin: 0; 
   }
 
   @media (max-width: 1500px) { 
     body {
-      align-items: center; /* Center content horizontally */
-      justify-content: flex-start; /* Align content to the top */
+      align-items: center; 
+      justify-content: flex-start;
       margin-bottom: 20px; 
     }
   }
