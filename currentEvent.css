@@ -59,26 +59,11 @@ body {
     align-self: flex-start;
   }
 
-  @media (max-width: 1500px) { /* Adjust the breakpoint as needed */
-    body {
-        align-items: flex-start; /* Center content on smaller screens */
-        margin-bottom: 20px; /* Add margin to the bottom */;
-    }
-    .description {
-        margin-bottom: 20px;
-        margin-top: 40px;
-    }
-    .top-row {
-        margin-left: 5%; 
-        margin-top: 40px;
-        margin-right: 20%;
-    }
-  }
 
   @media (max-width: 1500px) { 
-    body {
-      align-items: center; /* Center content horizontally */
-      justify-content: flex-start; /* Align content to the top */
+    .main-content,.links{
+      align-items: left; /* Center content horizontally */
+      justify-content: flex-start;  /* Align content to the top */
       margin-bottom: 20px; 
     }
   }

@@ -52,10 +52,10 @@ body {
     align-self: flex-start;
     color: black;
   }
-  
+
   @media (max-width: 1500px) { 
-    body {
-      align-items: center; /* Center content horizontally */
+    .main-content,.links {
+      align-items: left; /* Center content horizontally */
       justify-content: flex-start; /* Align content to the top */
       margin-bottom: 20px; 
     }
