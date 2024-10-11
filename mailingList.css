@@ -52,6 +52,7 @@ body {
     text-decoration: none;
     cursor: pointer;
     font-weight: 700;
+    text-decoration: underline;
   }
 
   @media (max-width: 1500px) { /* Adjust the breakpoint as needed */
